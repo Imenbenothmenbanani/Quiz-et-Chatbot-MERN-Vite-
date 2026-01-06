@@ -1,0 +1,1069 @@
+{
+  "dataset_info": {
+    "nom": "Dataset Sanctions Cybercriminalité et Droits - Législation Tunisienne",
+    "version": "2.0",
+    "date_creation": "2025-12-26",
+    "description": "Base de données juridique tunisienne complète pour quiz automatisé - Sanctions et articles de loi selon le Décret-loi n° 2022-54 et autres lois tunisiennes",
+    "source": "Code pénal tunisien, Décret-loi n° 2022-54, Loi 2015-26, Loi 2016-61",
+    "pays": "Tunisie"
+  },
+  "infractions": [
+    {
+      "id": 1,
+      "categorie": "Cybercriminalité - Piratage",
+      "infraction": "Accès frauduleux à un système informatique",
+      "description": "Accéder ou se maintenir frauduleusement dans un système de traitement automatisé de données",
+      "article": "Article 15 du Décret-loi n° 2022-54",
+      "sanction_prison": "1 an d'emprisonnement",
+      "sanction_amende": "10 000 dinars d'amende",
+      "aggravation": "Peines doublées si atteinte aux intérêts vitaux ou activité professionnelle",
+      "mots_cles": ["piratage", "hacking", "accès frauduleux", "intrusion", "système informatique", "serveur", "accès illégal"],
+      "exemples": [
+        "Accéder au compte bancaire d'une personne sans autorisation",
+        "Pirater le système informatique d'une entreprise",
+        "Se connecter à un réseau wifi protégé sans autorisation",
+        "Se maintenir dans un système après y avoir accédé illégalement"
+      ]
+    },
+    {
+      "id": 2,
+      "categorie": "Cybercriminalité - Virus et Malware",
+      "infraction": "Propagation de virus informatique",
+      "description": "Endommager des systèmes, voler des données, perturber des dispositifs par propagation de virus",
+      "article": "Article 20 du Décret-loi n° 2022-54",
+      "sanction_prison": "6 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "aggravation": "Peines doublées selon contexte, tentative punissable",
+      "mots_cles": ["virus", "malware", "logiciel malveillant", "infection", "propagation", "destruction données"],
+      "exemples": [
+        "Créer et diffuser un virus informatique",
+        "Infecter des ordinateurs pour voler des données",
+        "Propager un malware pour paralyser un système",
+        "Développer un virus pour endommager des fichiers"
+      ]
+    },
+    {
+      "id": 3,
+      "categorie": "Cybercriminalité - Cheval de Troie",
+      "infraction": "Production, vente ou possession de Cheval de Troie",
+      "description": "Logiciel conçu pour commettre des infractions informatiques",
+      "article": "Article 17 du Décret-loi n° 2022-54",
+      "sanction_prison": "2 ans d'emprisonnement",
+      "sanction_amende": "20 000 dinars d'amende",
+      "mots_cles": ["cheval de troie", "trojan", "backdoor", "logiciel malveillant", "production", "distribution"],
+      "exemples": [
+        "Créer un cheval de Troie pour voler des mots de passe",
+        "Vendre des chevaux de Troie sur le dark web",
+        "Posséder des outils de piratage de type Trojan",
+        "Distribuer des logiciels malveillants déguisés"
+      ]
+    },
+    {
+      "id": 4,
+      "categorie": "Cybercriminalité - Rançongiciel",
+      "infraction": "Utilisation de rançongiciel (ransomware)",
+      "description": "Logiciel bloquant l'accès à des fichiers et demandant rançon",
+      "article": "Article 32 du Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 6 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende ou plus",
+      "aggravation": "Aggravation si activité professionnelle ou infrastructures critiques visées",
+      "mots_cles": ["ransomware", "rançongiciel", "chantage", "cryptage", "rançon", "blocage fichiers", "extorsion"],
+      "exemples": [
+        "Chiffrer les données d'une entreprise et demander une rançon",
+        "Bloquer l'accès aux fichiers d'un hôpital pour obtenir de l'argent",
+        "Infecter des systèmes avec un ransomware",
+        "Exiger un paiement en cryptomonnaie pour débloquer des données"
+      ]
+    },
+    {
+      "id": 5,
+      "categorie": "Cybercriminalité - Attaque DDoS",
+      "infraction": "Attaque par déni de service (DDoS)",
+      "description": "Empêcher un site ou serveur de fonctionner normalement",
+      "article": "Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 3 ans d'emprisonnement",
+      "sanction_amende": "20 000 dinars d'amende",
+      "aggravation": "Peines plus sévères si circonstances aggravantes",
+      "mots_cles": ["DDoS", "déni de service", "attaque massive", "surcharge serveur", "indisponibilité", "DoS"],
+      "exemples": [
+        "Saturer un site web pour le rendre inaccessible",
+        "Attaquer un serveur d'entreprise avec du trafic massif",
+        "Paralyser un site gouvernemental par DDoS",
+        "Rendre indisponible un service en ligne par surcharge"
+      ]
+    },
+    {
+      "id": 6,
+      "categorie": "Cybercriminalité - Sabotage",
+      "infraction": "Sabotage de données ou infrastructures",
+      "description": "Destruction, modification, blocage de données ou systèmes",
+      "article": "Article 19 du Décret-loi n° 2022-54",
+      "sanction_prison": "3 ans d'emprisonnement",
+      "sanction_amende": "20 000 dinars d'amende",
+      "aggravation": "Tentative punissable",
+      "mots_cles": ["sabotage", "destruction", "modification données", "blocage système", "altération", "dommages"],
+      "exemples": [
+        "Supprimer la base de données d'une entreprise",
+        "Modifier des données critiques dans un système",
+        "Bloquer l'accès à des fichiers importants",
+        "Détruire des infrastructures numériques"
+      ]
+    },
+    {
+      "id": 7,
+      "categorie": "Cybercriminalité - Escroquerie",
+      "infraction": "Escroqueries en ligne (phishing, arnaques)",
+      "description": "Vol d'informations ou argent par faux messages ou sites",
+      "article": "Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "5 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "mots_cles": ["escroquerie", "phishing", "arnaque", "fraude", "faux site", "hameçonnage", "scam"],
+      "exemples": [
+        "Créer un faux site bancaire pour voler des identifiants",
+        "Envoyer des emails de phishing se faisant passer pour une banque",
+        "Arnaquer des personnes avec de fausses offres en ligne",
+        "Usurper l'identité d'une entreprise pour extorquer de l'argent"
+      ]
+    },
+    {
+      "id": 8,
+      "categorie": "Cybercriminalité - Vol d'identité",
+      "infraction": "Vol d'identité numérique",
+      "description": "Utilisation illégale des données personnelles en ligne",
+      "article": "Article 36 du Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 6 ans d'emprisonnement",
+      "sanction_amende": "Amendes importantes selon gravité",
+      "mots_cles": ["vol identité", "usurpation", "données personnelles", "fausse identité", "impersonation"],
+      "exemples": [
+        "Utiliser les données personnelles d'autrui pour ouvrir un compte",
+        "Se faire passer pour quelqu'un d'autre en ligne",
+        "Voler des informations d'identité pour commettre des fraudes",
+        "Créer de faux profils avec l'identité d'une autre personne"
+      ]
+    },
+    {
+      "id": 9,
+      "categorie": "Cybercriminalité - Piratage de logiciels",
+      "infraction": "Contrefaçon ou piratage de logiciels",
+      "description": "Reproduction ou distribution illégale de logiciels",
+      "article": "Loi tunisienne sur la propriété intellectuelle",
+      "sanction_prison": "1 à 6 mois en cas de récidive",
+      "sanction_amende": "500 à 5 000 dinars d'amende",
+      "mots_cles": ["piratage logiciel", "contrefaçon", "copie illégale", "distribution illégale", "crack", "licence"],
+      "exemples": [
+        "Copier et distribuer des logiciels sans licence",
+        "Vendre des versions piratées de programmes",
+        "Utiliser des cracks pour contourner les protections",
+        "Télécharger et redistribuer des logiciels protégés"
+      ]
+    },
+    {
+      "id": 10,
+      "categorie": "Cybercriminalité - Blanchiment",
+      "infraction": "Blanchiment d'argent via cryptomonnaies",
+      "description": "Transformation de gains illégaux en apparence légale",
+      "article": "Loi n° 2015-26",
+      "sanction_prison": "Selon gravité et montant",
+      "sanction_amende": "Amendes importantes",
+      "mots_cles": ["blanchiment", "cryptomonnaie", "bitcoin", "argent sale", "transaction illégale", "crypto"],
+      "exemples": [
+        "Convertir de l'argent illégal en cryptomonnaies",
+        "Utiliser Bitcoin pour blanchir des fonds",
+        "Créer des transactions fictives pour masquer l'origine de l'argent",
+        "Acheter des cryptomonnaies avec des fonds criminels"
+      ]
+    },
+    {
+      "id": 11,
+      "categorie": "Cybercriminalité - Cyberharcèlement",
+      "infraction": "Harcèlement en ligne ou chantage numérique",
+      "description": "Harcèlement ou intimidation via outils numériques",
+      "article": "Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "5 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "aggravation": "Peine doublée pour fonctionnaires",
+      "mots_cles": ["harcèlement", "cyberharcèlement", "intimidation", "menaces", "chantage", "messages répétés"],
+      "exemples": [
+        "Envoyer des messages menaçants répétés sur les réseaux sociaux",
+        "Harceler quelqu'un par email de manière continue",
+        "Faire du chantage via messages électroniques",
+        "Intimider une personne par des publications en ligne"
+      ]
+    },
+    {
+      "id": 12,
+      "categorie": "Contenu illicite - Fausses informations",
+      "infraction": "Diffusion de fausses nouvelles et rumeurs",
+      "description": "Diffusion de fausses nouvelles, rumeurs, discours incitant à la haine via réseaux sociaux",
+      "article": "Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "aggravation": "Peine doublée si vise un agent public ou assimilé",
+      "mots_cles": ["fake news", "fausses nouvelles", "rumeurs", "désinformation", "mensonges", "infox", "propagande"],
+      "exemples": [
+        "Publier de fausses informations sur les réseaux sociaux",
+        "Diffuser des rumeurs pour nuire à quelqu'un",
+        "Créer et partager de fausses nouvelles",
+        "Propager des mensonges pour semer la terreur"
+      ]
+    },
+    {
+      "id": 13,
+      "categorie": "Contenu illicite - Incitation à la haine",
+      "infraction": "Propos racistes et incitation à la haine",
+      "description": "Discours racistes, incitation à la haine, apologie du racisme",
+      "article": "Loi n° 11/2018",
+      "sanction_prison": "De 1 à 3 ans d'emprisonnement pour les cas les plus graves",
+      "sanction_amende": "Amende jusqu'à 3 000 dinars ou plus selon gravité",
+      "mots_cles": ["racisme", "haine", "discrimination", "xénophobie", "incitation", "apologie"],
+      "exemples": [
+        "Publier des propos racistes sur internet",
+        "Inciter à la haine contre un groupe ethnique",
+        "Diffuser du contenu discriminatoire",
+        "Faire l'apologie du racisme en ligne"
+      ]
+    },
+    {
+      "id": 14,
+      "categorie": "Contenu illicite - Terrorisme",
+      "infraction": "Infractions terroristes - diffusion ou incitation",
+      "description": "Diffusion de contenu terroriste, incitation au terrorisme, apologie d'actes terroristes",
+      "article": "Loi n° 2003-75 et Loi n° 2015-26",
+      "sanction_prison": "Peines très lourdes, pouvant aller jusqu'à perpétuité selon gravité",
+      "sanction_amende": "Amendes importantes",
+      "mots_cles": ["terrorisme", "incitation terroriste", "apologie", "radicalisation", "contenu terroriste", "jihad"],
+      "exemples": [
+        "Diffuser de la propagande terroriste en ligne",
+        "Inciter au terrorisme via les réseaux sociaux",
+        "Publier des vidéos faisant l'apologie d'attentats",
+        "Recruter pour des organisations terroristes en ligne"
+      ]
+    },
+    {
+      "id": 15,
+      "categorie": "Atteinte à l'intégrité - Incitation au meurtre",
+      "infraction": "Incitation au meurtre",
+      "description": "Pousser, encourager ou provoquer quelqu'un à commettre un homicide",
+      "article": "Article 14 de la Loi organique n° 2015-26 et Article 206 du Code pénal",
+      "sanction_prison": "5 ans d'emprisonnement pour aide au suicide",
+      "sanction_amende": "200 000 dinars (pour infraction terroriste)",
+      "aggravation": "Peut être qualifiée de terroriste selon contexte",
+      "mots_cles": ["incitation meurtre", "homicide", "appel au crime", "encouragement violence", "suicide"],
+      "exemples": [
+        "Publier des messages incitant quelqu'un à tuer",
+        "Encourager le suicide via des messages",
+        "Provoquer un meurtre par des écrits en ligne",
+        "Pousser une personne au suicide par harcèlement"
+      ]
+    },
+    {
+      "id": 16,
+      "categorie": "Atteinte à l'intégrité - Diffusion d'agressions",
+      "infraction": "Diffusion d'agressions physiques",
+      "description": "Publication ou diffusion d'images/vidéos d'agressions physiques, incitation au viol ou au pillage",
+      "article": "Article 26 du Décret-loi n° 2022-54",
+      "sanction_prison": "6 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "mots_cles": ["agression", "violence", "viol", "pillage", "diffusion violence", "images choquantes"],
+      "exemples": [
+        "Publier des vidéos d'agressions physiques",
+        "Diffuser des images incitant au viol",
+        "Partager du contenu encourageant le pillage",
+        "Publier des scènes de violence pour inciter à la violence"
+      ]
+    },
+    {
+      "id": 17,
+      "categorie": "Atteinte à l'intégrité - Pornographie adulte",
+      "infraction": "Pornographie adulte non autorisée",
+      "description": "Création, diffusion ou mise à disposition de contenus sexuels explicites via Internet",
+      "article": "Article 26 du Décret-loi n° 2022-54",
+      "sanction_prison": "6 mois à 5 ans pour cas graves",
+      "sanction_amende": "1 000 à 10 000 dinars d'amende",
+      "mots_cles": ["pornographie", "contenu sexuel", "exploitation sexuelle", "diffusion pornographique"],
+      "exemples": [
+        "Diffuser du contenu pornographique sans autorisation",
+        "Créer des sites de pornographie illégale",
+        "Exploiter sexuellement via les TIC",
+        "Publier des contenus sexuels explicites en ligne"
+      ]
+    },
+    {
+      "id": 18,
+      "categorie": "Atteinte à l'intégrité - Pédopornographie",
+      "infraction": "Pornographie enfantine (pédopornographie)",
+      "description": "Contenus montrant un mineur dans des pratiques sexuelles explicites",
+      "article": "Article 26 du Décret-loi n° 2022-54",
+      "sanction_prison": "6 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "mots_cles": ["pédopornographie", "mineur", "enfant", "abus sexuel", "exploitation mineurs", "pédophilie"],
+      "exemples": [
+        "Produire du contenu pédopornographique",
+        "Diffuser des images de mineurs à caractère sexuel",
+        "Posséder du matériel pédopornographique",
+        "Partager des vidéos d'abus sexuels sur mineurs"
+      ]
+    },
+    {
+      "id": 19,
+      "categorie": "Atteinte à la dignité - Diffamation",
+      "infraction": "Diffamation en ligne",
+      "description": "Imputation de faits portant atteinte à l'honneur ou à la réputation d'une personne",
+      "article": "Article 247 du Code pénal et Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "6 mois d'emprisonnement",
+      "sanction_amende": "240 dinars d'amende (Code pénal), jusqu'à 50 000 dinars (Décret 2022-54)",
+      "mots_cles": ["diffamation", "calomnie", "atteinte réputation", "fausses accusations", "honneur"],
+      "exemples": [
+        "Publier de fausses accusations sur quelqu'un",
+        "Diffamer une personne sur les réseaux sociaux",
+        "Imputer des faits mensongers pour nuire à la réputation",
+        "Publier des informations diffamatoires en ligne"
+      ]
+    },
+    {
+      "id": 20,
+      "categorie": "Atteinte à la dignité - Calomnie",
+      "infraction": "Calomnie",
+      "description": "Fausse accusation d'un fait précis portant atteinte à l'honneur",
+      "article": "Article 247 du Code pénal",
+      "sanction_prison": "1 an d'emprisonnement",
+      "sanction_amende": "240 dinars d'amende",
+      "mots_cles": ["calomnie", "fausse accusation", "mensonge", "accusation mensongère"],
+      "exemples": [
+        "Accuser faussement quelqu'un d'un crime",
+        "Inventer des accusations graves contre une personne",
+        "Porter de fausses accusations pour nuire",
+        "Mentir sur les actes d'une personne publiquement"
+      ]
+ 
+    },
+    {
+      "id": 22,
+      "categorie": "Droit à l'image - Protection de l'image",
+      "infraction": "Violation du droit à l'image",
+      "description": "Fixation, reproduction, utilisation ou diffusion de l'image d'une personne sans son consentement",
+      "article": "Article 12 du Décret-loi n° 2022-54",
+      "sanction_prison": "3 ans d'emprisonnement",
+      "sanction_amende": "10 000 dinars d'amende",
+      "mots_cles": ["droit à l'image", "photo sans autorisation", "diffusion image", "vie privée", "consentement"],
+      "exemples": [
+        "Photographier quelqu'un et publier sans autorisation",
+        "Utiliser l'image d'une personne à des fins commerciales sans accord",
+        "Diffuser des photos privées sans consentement",
+        "Filmer une personne et partager la vidéo sans permission"
+      ]
+    },
+    {
+      "id": 23,
+      "categorie": "Droit à l'image - Images pornographiques",
+      "infraction": "Diffusion d'images à caractère pornographique",
+      "description": "Usage des réseaux de communication pour diffusion ou détention d'images pornographiques",
+      "article": "Article 12 du Décret-loi n° 2022-54",
+      "sanction_prison": "3 ans d'emprisonnement",
+      "sanction_amende": "10 000 dinars d'amende",
+      "mots_cles": ["pornographie", "images pornographiques", "revenge porn", "contenu intime", "sextorsion"],
+      "exemples": [
+        "Diffuser des photos intimes d'une personne sans accord (revenge porn)",
+        "Partager des vidéos à caractère sexuel sans consentement",
+        "Publier des images intimes pour se venger",
+        "Faire du chantage avec des photos compromettantes"
+      ]
+    },
+    {
+      "id": 24,
+      "categorie": "Vie privée - Données personnelles non autorisées",
+      "infraction": "Publication non autorisée de données personnelles",
+      "description": "Divulgation de photos, vidéos ou informations privées sans consentement",
+      "article": "Article 89 de la Loi n° 2004-63",
+      "sanction_prison": "1 an d'emprisonnement",
+      "sanction_amende": "5 000 dinars d'amende",
+      "mots_cles": ["données personnelles", "vie privée", "divulgation", "publication non autorisée", "RGPD"],
+      "exemples": [
+        "Publier sur Facebook des informations privées sans autorisation",
+        "Divulguer des données personnelles d'autrui",
+        "Partager des photos privées sans consentement",
+        "Diffuser des informations confidentielles sur quelqu'un"
+      ]
+    },
+    {
+      "id": 25,
+      "categorie": "Vie privée - Traitement illégal de données",
+      "infraction": "Traitement ou diffusion non autorisée de données personnelles",
+      "description": "Traitement ou diffusion de données à caractère personnel sans autorisation",
+      "article": "Article 21 du Décret-loi n° 2022-54",
+      "sanction_prison": "3 ans d'emprisonnement",
+      "sanction_amende": "20 000 dinars d'amende",
+      "mots_cles": ["traitement données", "données personnelles", "protection données", "RGPD", "vie privée"],
+      "exemples": [
+        "Traiter des données personnelles sans consentement",
+        "Vendre des bases de données personnelles",
+        "Utiliser des données à des fins non autorisées",
+        "Diffuser illégalement des informations personnelles"
+      ]
+    },
+    {
+      "id": 26,
+      "categorie": "Commerce illégal - Vente de produits interdits",
+      "infraction": "Vente de produits interdits ou réglementés",
+      "description": "Vente en ligne de médicaments sans autorisation, stupéfiants, armes, alcool sans licence",
+      "article": "Législation tunisienne sur le commerce électronique",
+      "sanction_prison": "2 à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["vente illégale", "produits interdits", "médicaments", "stupéfiants", "armes", "alcool"],
+      "exemples": [
+        "Vendre des médicaments en ligne sans autorisation",
+        "Commercialiser des stupéfiants sur internet",
+        "Vendre des armes illégalement en ligne",
+        "Proposer de l'alcool sans licence commerciale"
+      ]
+    },
+    {
+      "id": 27,
+      "categorie": "Commerce illégal - Sans immatriculation",
+      "infraction": "E-commerce sans immatriculation commerciale",
+      "description": "Commerce électronique sans inscription au registre du commerce ou numéro fiscal",
+      "article": "Loi tunisienne sur le commerce électronique",
+      "sanction_prison": "Pas de prison",
+      "sanction_amende": "1 000 à 10 000 dinars d'amende et fermeture du site",
+      "mots_cles": ["commerce non déclaré", "immatriculation", "registre commerce", "numéro fiscal", "e-commerce illégal"],
+      "exemples": [
+        "Vendre en ligne sans être inscrit au registre du commerce",
+        "Exercer une activité commerciale sans numéro fiscal",
+        "Créer une boutique en ligne sans autorisation",
+        "Commerce électronique non déclaré"
+      ]
+    },
+    {
+      "id": 28,
+      "categorie": "Commerce illégal - Contrefaçon",
+      "infraction": "Contrefaçon et fraude commerciale",
+      "description": "Vente de produits de marque falsifiés, escroqueries numériques",
+      "article": "Code pénal tunisien et lois sur la propriété intellectuelle",
+      "sanction_prison": "Jusqu'à 3 ans d'emprisonnement",
+      "sanction_amende": "Confiscation du matériel",
+      "mots_cles": ["contrefaçon", "faux produits", "marque falsifiée", "fraude", "copie illégale"],
+      "exemples": [
+        "Vendre des vêtements contrefaits en ligne",
+        "Commercialiser de faux parfums de marque",
+        "Proposer des logiciels piratés",
+        "Créer de faux sites de vente pour escroquer"
+      ]
+    },
+    {
+      "id": 29,
+      "categorie": "Commerce illégal - Escroquerie électronique",
+      "infraction": "Escroquerie électronique commerciale",
+      "description": "Arnaques en ligne, faux sites de vente, non-livraison après paiement",
+      "article": "Législation tunisienne",
+      "sanction_prison": "1 à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 20 000 dinars d'amende",
+      "mots_cles": ["escroquerie", "arnaque en ligne", "faux site", "fraude commerciale", "non-livraison"],
+      "exemples": [
+        "Créer un faux site de vente et ne jamais livrer",
+        "Encaisser des paiements sans fournir les produits",
+        "Arnaquer des clients avec de fausses promotions",
+        "Vendre des produits inexistants en ligne"
+      ]
+    },
+    {
+      "id": 30,
+      "categorie": "Commerce illégal - Blanchiment et évasion fiscale",
+      "infraction": "Blanchiment d'argent et évasion fiscale en ligne",
+      "description": "Dissimuler des revenus ou blanchir des fonds via paiements numériques",
+      "article": "Loi n° 2015-26",
+      "sanction_prison": "Jusqu'à 10 ans d'emprisonnement",
+      "sanction_amende": "Amende élevée selon montant",
+      "mots_cles": ["blanchiment", "évasion fiscale", "fraude fiscale", "argent sale", "paiements numériques"],
+      "exemples": [
+        "Blanchir de l'argent via des transactions en ligne",
+        "Dissimuler des revenus d'activités en ligne",
+        "Utiliser des plateformes numériques pour évader l'impôt",
+        "Créer des circuits de paiement pour blanchir des fonds"
+      ]
+    },
+    {
+      "id": 31,
+      "categorie": "Trafic humain - Traite des personnes",
+      "infraction": "Trafic des êtres humains via internet",
+      "description": "Recrutement, transport, hébergement ou exploitation de personnes par force, tromperie ou abus",
+      "article": "Article 12 de la Loi organique n° 2016-61",
+      "sanction_prison": "3 ans d'emprisonnement (usage des TIC)",
+      "sanction_amende": "10 000 dinars d'amende",
+      "aggravation": "10 à 15 ans et jusqu'à 50 000 DT pour formes aggravées",
+      "mots_cles": ["trafic humain", "traite personnes", "exploitation", "esclavage moderne", "recrutement forcé"],
+      "exemples": [
+        "Recruter des personnes via de fausses offres d'emploi en ligne",
+        "Exploitation sexuelle via plateformes numériques",
+        "Vente d'êtres humains sur le dark web",
+        "Utiliser internet pour le trafic de personnes"
+      ]
+    },
+    {
+      "id": 32,
+      "categorie": "Trafic humain - Trafic d'organes",
+      "infraction": "Trafic d'organes humains",
+      "description": "Prélèvement, vente ou exploitation d'organes, tissus ou gamètes",
+      "article": "Loi n° 2016-61 et Loi n° 91-22 (Article 6)",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Non précisé",
+      "mots_cles": ["trafic organes", "prélèvement organes", "vente organes", "exploitation corporelle"],
+      "exemples": [
+        "Organiser le trafic d'organes via internet",
+        "Vendre des organes humains sur le dark web",
+        "Prélever des organes de force",
+        "Exploiter des personnes pour leurs organes"
+      ]
+    },
+    {
+      "id": 33,
+      "categorie": "Trafic - Drogue en ligne",
+      "infraction": "Cyber trafic de drogue",
+      "description": "Vente de stupéfiants via dark web et marketplaces, paiements en cryptomonnaie",
+      "article": "Loi n° 52 du 18 mai 1992 (Article 2)",
+      "sanction_prison": "6 à 10 ans d'emprisonnement",
+      "sanction_amende": "5 000 à 10 000 dinars d'amende",
+      "mots_cles": ["drogue", "stupéfiants", "dark web", "trafic drogue", "narcotiques", "cannabis"],
+      "exemples": [
+        "Vendre de la drogue sur le dark web",
+        "Utiliser des cryptomonnaies pour acheter des stupéfiants",
+        "Organiser un réseau de trafic de drogue en ligne",
+        "Importer de la drogue via des plateformes cachées"
+      ]
+    },
+    {
+      "id": 34,
+      "categorie": "Propriété industrielle - Contrefaçon brevets",
+      "infraction": "Contrefaçon de brevets",
+      "description": "Fabrication, vente ou utilisation d'une invention brevetée sans autorisation",
+      "article": "Articles 48 et 51 de la Loi n° 2001-84",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["brevet", "contrefaçon", "invention", "propriété industrielle", "reproduction illégale"],
+      "exemples": [
+        "Reproduire une invention brevetée sans autorisation",
+        "Fabriquer un produit protégé par brevet",
+        "Vendre des copies d'une technologie brevetée",
+        "Utiliser une invention protégée sans licence"
+      ]
+    },
+    {
+      "id": 35,
+      "categorie": "Propriété industrielle - Contrefaçon marques",
+      "infraction": "Contrefaçon de marques",
+      "description": "Utilisation non autorisée d'une marque déposée sur des produits ou services",
+      "article": "Articles 51 et 52 de la Loi n° 2001-36",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["marque", "logo", "contrefaçon marque", "usage illégal marque", "propriété industrielle"],
+      "exemples": [
+        "Utiliser le logo d'une marque connue sans autorisation",
+        "Vendre des produits avec une marque contrefaite",
+        "Créer des produits imitant une marque célèbre",
+        "Apposer une marque déposée sur des contrefaçons"
+      ]
+    },
+    {
+      "id": 36,
+      "categorie": "Propriété industrielle - Dessins et modèles",
+      "infraction": "Contrefaçon de dessins et modèles industriels",
+      "description": "Reproduction non autorisée de l'apparence ou du design d'un produit protégé",
+      "article": "Articles 51 et 52 de la Loi n° 2001-21",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["design", "modèle industriel", "dessin", "apparence", "copie design"],
+      "exemples": [
+        "Copier l'emballage d'un produit protégé",
+        "Reproduire le design d'un prototype industriel",
+        "Imiter l'apparence d'un produit célèbre",
+        "Fabriquer des copies d'un design protégé"
+      ]
+    },
+    {
+      "id": 37,
+      "categorie": "Propriété industrielle - Circuits intégrés",
+      "infraction": "Contrefaçon de schémas de circuits intégrés",
+      "description": "Fabrication ou vente de circuits intégrés reproduisant un schéma protégé",
+      "article": "Loi n° 2001-20",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["circuits intégrés", "composants électroniques", "schéma", "microprocesseur", "puce"],
+      "exemples": [
+        "Produire illégalement des composants électroniques",
+        "Copier le schéma d'un circuit intégré protégé",
+        "Vendre des puces contrefaites",
+        "Fabriquer des copies de microprocesseurs"
+      ]
+    },
+    {
+      "id": 38,
+      "categorie": "Propriété industrielle - Données industrielles",
+      "infraction": "Détournement ou altération de données industrielles",
+      "description": "Accès illégal ou modification de données industrielles protégées par TIC",
+      "article": "Article 22 du Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 6 ans d'emprisonnement",
+      "sanction_amende": "100 000 dinars d'amende",
+      "mots_cles": ["données industrielles", "secret industriel", "piratage industriel", "base de données"],
+      "exemples": [
+        "Pirater une base de données industrielle",
+        "Voler des secrets de fabrication",
+        "Modifier des données techniques d'une entreprise",
+        "Accéder illégalement à des informations industrielles"
+      ]
+    },
+    {
+      "id": 39,
+      "categorie": "Propriété industrielle - Fausses informations",
+      "infraction": "Diffusion de fausses informations industrielles",
+      "description": "Propagation intentionnelle de fausses données sur un produit ou brevet pour nuire",
+      "article": "Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "mots_cles": ["fausses informations", "désinformation", "concurrence déloyale", "rumeurs"],
+      "exemples": [
+        "Publier de fausses informations sur un produit concurrent",
+        "Diffuser des rumeurs sur un brevet",
+        "Propager des mensonges pour nuire à un concurrent",
+        "Créer de fausses informations sur une innovation"
+      ]
+    },
+    {
+      "id": 40,
+      "categorie": "Propriété intellectuelle - Plagiat",
+      "infraction": "Plagiat d'œuvres protégées",
+      "description": "Reproduction totale ou partielle d'une œuvre littéraire, artistique, scientifique sans autorisation",
+      "article": "Code de la propriété intellectuelle tunisien",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["plagiat", "copie", "reproduction illégale", "vol intellectuel", "droits d'auteur"],
+      "exemples": [
+        "Copier un article sans citer l'auteur",
+        "Reproduire un livre et le publier sous son nom",
+        "Plagier un logiciel protégé",
+        "S'approprier une œuvre artistique"
+      ]
+    },
+    {
+      "id": 41,
+      "categorie": "Propriété intellectuelle - Droits d'auteur",
+      "infraction": "Violation de droits d'auteur",
+      "description": "Utilisation, diffusion, reproduction ou adaptation d'une œuvre protégée sans accord",
+      "article": "Code de la propriété intellectuelle tunisien",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["droits d'auteur", "copyright", "œuvre protégée", "utilisation illégale", "diffusion illégale"],
+      "exemples": [
+        "Diffuser un film en ligne sans licence",
+        "Partager de la musique protégée illégalement",
+        "Utiliser une photo sans autorisation de l'auteur",
+        "Reproduire une œuvre d'art sans accord"
+      ]
+    },
+    {
+      "id": 42,
+      "categorie": "Propriété intellectuelle - Droit moral",
+      "infraction": "Atteinte au droit moral de l'auteur",
+      "description": "Modification ou exploitation d'une œuvre sans respecter l'intégrité ou la paternité",
+      "article": "Code de la propriété intellectuelle tunisien",
+      "sanction_prison": "Jusqu'à 3 ans d'emprisonnement",
+      "sanction_amende": "Amende selon code",
+      "mots_cles": ["droit moral", "paternité", "intégrité œuvre", "modification non autorisée"],
+      "exemples": [
+        "Modifier une œuvre artistique sans l'accord de l'auteur",
+        "Ne pas mentionner le nom de l'auteur original",
+        "Altérer une création sans permission",
+        "Dénaturer l'œuvre d'un artiste"
+      ]
+    },
+    {
+      "id": 43,
+      "categorie": "Propriété intellectuelle - Secret industriel",
+      "infraction": "Violation de secret industriel",
+      "description": "Diffusion, usage ou appropriation d'informations techniques ou commerciales protégées",
+      "article": "Article 22 du Décret-loi n° 2022-54 et Code pénal",
+      "sanction_prison": "Jusqu'à 6 ans d'emprisonnement",
+      "sanction_amende": "100 000 dinars d'amende",
+      "mots_cles": ["secret industriel", "confidentialité", "procédé confidentiel", "espionnage industriel"],
+      "exemples": [
+        "Divulguer un procédé industriel confidentiel",
+        "Voler des secrets de fabrication",
+        "Révéler des informations commerciales protégées",
+        "Utiliser des secrets industriels d'une entreprise"
+      ]
+    },
+    {
+      "id": 44,
+      "categorie": "Crimes contre l'État - Terrorisme électronique",
+      "infraction": "Sabotage de systèmes informatiques sensibles (terrorisme)",
+      "description": "Attaque de systèmes critiques (centrales, banques, gouvernement) à des fins terroristes",
+      "article": "Loi n° 2015-26 sur le terrorisme",
+      "sanction_prison": "Jusqu'à perpétuité",
+      "sanction_amende": "Sanctions maximales",
+      "mots_cles": ["terrorisme", "sabotage", "infrastructure critique", "cyberterrorisme", "attaque terroriste"],
+      "exemples": [
+        "Attaquer une centrale électrique via un virus",
+        "Saboter le système bancaire national",
+        "Pirater des sites gouvernementaux pour terroriser",
+        "Perturber les systèmes de communication d'un aéroport"
+      ]
+    },
+    {
+      "id": 45,
+      "categorie": "Crimes contre l'État - Appartenance terroriste",
+      "infraction": "Adhésion ou appartenance à une organisation terroriste",
+      "description": "Être membre ou appartenir à un groupe terroriste",
+      "article": "Article 31 de la Loi n° 2015-26",
+      "sanction_prison": "Prison à perpétuité",
+      "sanction_amende": "Sanctions maximales",
+      "mots_cles": ["organisation terroriste", "groupe terroriste", "membre", "affiliation"],
+      "exemples": [
+        "Rejoindre une organisation terroriste",
+        "Être membre actif d'un groupe terroriste",
+        "S'affilier à un réseau terroriste en ligne",
+        "Prêter allégeance à une organisation terroriste"
+      ]
+    },
+    {
+      "id": 46,
+      "categorie": "Crimes contre l'État - Financement terrorisme",
+      "infraction": "Financement ou soutien logistique au terrorisme",
+      "description": "Fournir des fonds ou un soutien matériel à des activités terroristes",
+      "article": "Articles 33-35 de la Loi n° 2015-26",
+      "sanction_prison": "10 à 20 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 500 000 dinars d'amende",
+      "mots_cles": ["financement terrorisme", "soutien terroriste", "fonds terroristes", "aide terroriste"],
+      "exemples": [
+        "Financer des activités terroristes",
+        "Fournir un soutien logistique à un groupe terroriste",
+        "Transférer des fonds pour le terrorisme",
+        "Aider matériellement une organisation terroriste"
+      ]
+    },
+    {
+      "id": 47,
+      "categorie": "Crimes contre l'État - Recrutement terroriste",
+      "infraction": "Recrutement ou incitation au terrorisme en ligne",
+      "description": "Recruter ou inciter des personnes à rejoindre des groupes terroristes",
+      "article": "Loi n° 2015-26",
+      "sanction_prison": "10 à 20 ans d'emprisonnement",
+      "sanction_amende": "Amendes importantes",
+      "mots_cles": ["recrutement", "radicalisation", "incitation terrorisme", "propagande terroriste"],
+      "exemples": [
+        "Recruter des personnes pour le jihad en ligne",
+        "Inciter des jeunes à rejoindre des groupes terroristes",
+        "Faire de la propagande pour radicaliser",
+        "Utiliser les réseaux sociaux pour le recrutement terroriste"
+      ]
+    },
+    {
+      "id": 48,
+      "categorie": "Crimes contre l'État - Non-dénonciation",
+      "infraction": "Non-dénonciation d'un acte terroriste planifié",
+      "description": "Ne pas signaler aux autorités un acte terroriste dont on a connaissance",
+      "article": "Loi n° 2015-26",
+      "sanction_prison": "5 ans d'emprisonnement",
+      "sanction_amende": "Amendes",
+      "mots_cles": ["non-dénonciation", "complicité", "acte terroriste", "silence"],
+      "exemples": [
+        "Savoir qu'un attentat est prévu et ne pas le dénoncer",
+        "Avoir connaissance d'un projet terroriste sans alerter",
+        "Garder le silence sur des activités terroristes",
+        "Ne pas signaler un complot terroriste"
+      ]
+    },
+    {
+      "id": 49,
+      "categorie": "Crimes contre l'État - Espionnage",
+      "infraction": "Espionnage électronique",
+      "description": "Collecte, envoi ou vente d'informations sensibles à des entités étrangères",
+      "article": "Articles 60 à 62 du Code pénal",
+      "sanction_prison": "Peine de mort ou perpétuité selon préjudice",
+      "sanction_amende": "Sanctions maximales",
+      "mots_cles": ["espionnage", "trahison", "informations sensibles", "secrets d'État", "agent étranger"],
+      "exemples": [
+        "Transmettre des secrets d'État à un pays étranger",
+        "Vendre des informations militaires",
+        "Espionner pour le compte d'une puissance étrangère",
+        "Collecter des données sensibles pour l'ennemi"
+      ]
+    },
+    {
+      "id": 50,
+      "categorie": "Crimes contre l'État - Piratage institutions",
+      "infraction": "Piratage d'institutions publiques sensibles",
+      "description": "Accès illégal aux systèmes informatiques de la défense, sécurité nationale ou ministères",
+      "article": "Loi n° 2015-26 et Décret-loi n° 2022-54",
+      "sanction_prison": "10 à 20 ans d'emprisonnement",
+      "sanction_amende": "Forte amende",
+      "mots_cles": ["piratage État", "institutions publiques", "défense nationale", "ministères"],
+      "exemples": [
+        "Pirater le système d'un ministère",
+        "Accéder illégalement aux serveurs de la défense",
+        "Attaquer les systèmes de la sécurité nationale",
+        "Intrusion dans les bases de données gouvernementales"
+      ]
+    },
+    {
+      "id": 51,
+      "categorie": "Crimes contre l'État - Atteinte sécurité nationale",
+      "infraction": "Propagation de fausses informations nuisant à la sécurité nationale",
+      "description": "Diffusion de rumeurs ou données falsifiées via Internet pour semer le chaos",
+      "article": "Article 24 du Décret-loi n° 2022-54",
+      "sanction_prison": "5 ans d'emprisonnement",
+      "sanction_amende": "50 000 dinars d'amende",
+      "mots_cles": ["sécurité nationale", "fausses informations", "rumeurs", "chaos", "déstabilisation"],
+      "exemples": [
+        "Diffuser de fausses rumeurs pour déstabiliser le pays",
+        "Propager des informations mensongères sur la sécurité",
+        "Créer la panique avec de fausses nouvelles",
+        "Publier des données falsifiées pour nuire à l'État"
+      ]
+    },
+    {
+      "id": 52,
+      "categorie": "Crimes contre l'État - Appel sédition",
+      "infraction": "Appel à la désobéissance ou à la sédition",
+      "description": "Incitation numérique à attaquer l'État ou ses institutions",
+      "article": "Articles 121 et 121 bis du Code pénal",
+      "sanction_prison": "2 à 5 ans d'emprisonnement (plus si violence)",
+      "sanction_amende": "Amendes",
+      "mots_cles": ["sédition", "désobéissance", "révolte", "insurrection", "appel violence"],
+      "exemples": [
+        "Appeler à la révolte contre le gouvernement",
+        "Inciter à attaquer les institutions de l'État",
+        "Encourager la désobéissance civile violente",
+        "Provoquer une insurrection via les réseaux sociaux"
+      ]
+    },
+    {
+      "id": 53,
+      "categorie": "Crimes contre l'État - Sabotage infrastructures",
+      "infraction": "Sabotage numérique de structures vitales",
+      "description": "Attaques contre réseaux d'électricité, eau, transport ou télécommunication",
+      "article": "Loi n° 2015-26",
+      "sanction_prison": "20 ans à perpétuité selon gravité",
+      "sanction_amende": "Sanctions maximales",
+      "mots_cles": ["sabotage", "infrastructure critique", "électricité", "eau", "transport", "télécommunication"],
+      "exemples": [
+        "Attaquer le réseau électrique national",
+        "Saboter le système de distribution d'eau",
+        "Perturber les systèmes de transport",
+        "Détruire les infrastructures de télécommunication"
+      ]
+    },
+    {
+      "id": 54,
+      "categorie": "Crimes contre l'État - Défense nationale",
+      "infraction": "Atteinte à la défense nationale via TIC",
+      "description": "Publication, interception ou transmission d'informations militaires ou stratégiques",
+      "article": "Article 63 du Code pénal",
+      "sanction_prison": "10 à 20 ans d'emprisonnement",
+      "sanction_amende": "Amendes importantes",
+      "mots_cles": ["défense nationale", "secrets militaires", "informations stratégiques", "armée"],
+      "exemples": [
+        "Publier des secrets militaires en ligne",
+        "Transmettre des informations stratégiques à l'ennemi",
+        "Intercepter des communications militaires",
+        "Divulguer des plans de défense nationale"
+      ]
+    },
+    {
+      "id": 55,
+      "categorie": "Crimes économiques - Fraude fiscale",
+      "infraction": "Fraude fiscale électronique",
+      "description": "Utilisation de systèmes informatiques pour échapper au paiement des impôts",
+      "article": "Article 97 du Code des impôts et loi sur la cybercriminalité",
+      "sanction_prison": "Jusqu'à 10 ans d'emprisonnement",
+      "sanction_amende": "100 à 10 000 dinars d'amende selon gravité",
+      "mots_cles": ["fraude fiscale", "évasion fiscale", "impôts", "manipulation factures", "déclarations falsifiées"],
+      "exemples": [
+        "Manipuler des factures électroniques pour payer moins d'impôts",
+        "Altérer des déclarations fiscales via logiciels",
+        "Créer de fausses dépenses pour réduire les taxes",
+        "Dissimuler des revenus dans les déclarations"
+      ]
+    },
+    {
+      "id": 56,
+      "categorie": "Crimes économiques - Corruption numérique",
+      "infraction": "Corruption numérique",
+      "description": "Offrir ou accepter des pots-de-vin via plateformes en ligne",
+      "article": "Loi n° 2015-26 sur la corruption",
+      "sanction_prison": "5 à 15 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 500 000 dinars d'amende",
+      "mots_cles": ["corruption", "pot-de-vin", "commission illégale", "cryptomonnaies", "corruption en ligne"],
+      "exemples": [
+        "Payer des commissions via cryptomonnaies pour obtenir des marchés",
+        "Accepter des pots-de-vin via plateformes numériques",
+        "Corrompre des fonctionnaires en ligne",
+        "Utiliser Bitcoin pour des transactions de corruption"
+      ]
+    },
+    {
+      "id": 57,
+      "categorie": "Crimes économiques - Piraterie économique",
+      "infraction": "Piraterie économique",
+      "description": "Accès illégal à des informations économiques sensibles pour causer un préjudice",
+      "article": "Décret-loi n° 2022-54",
+      "sanction_prison": "6 à 20 ans d'emprisonnement",
+      "sanction_amende": "Amendes importantes",
+      "mots_cles": ["piraterie économique", "vol données bancaires", "secrets commerciaux", "espionnage économique"],
+      "exemples": [
+        "Voler la base de données clients d'une banque",
+        "Accéder aux secrets commerciaux d'un concurrent",
+        "Pirater des informations financières",
+        "Extraire des données économiques sensibles"
+      ]
+    },
+    {
+      "id": 58,
+      "categorie": "Crimes économiques - Fausses informations économiques",
+      "infraction": "Diffusion de fausses informations économiques",
+      "description": "Utilisation de réseaux pour diffuser des informations fausses perturbant les marchés",
+      "article": "Article 24 du Décret-loi n° 2022-54", 
+      "sanction_prison": "3 à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 50 000 dinars d'amende",
+      "mots_cles": ["fausses informations économiques", "manipulation marchés", "rumeurs financières", "faillite"],
+      "exemples": [
+        "Publier de faux rapports économiques",
+        "Diffuser des rumeurs sur des faillites d'entreprises",
+        "Manipuler les cours boursiers avec de fausses informations",
+        "Créer la panique sur les marchés financiers"
+      ]
+    },
+    {
+      "id": 59,
+      "categorie": "Crimes sociaux - Fraude cotisations",
+      "infraction": "Fraude à la cotisation sociale",
+      "description": "Manipulation des données pour réduire les cotisations sociales dues à la CNSS",
+      "article": "Article 98 de la Loi n° 60-30 et Article 291 du Code pénal",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 2 400 dinars + dommages-intérêts (double des sommes)",
+      "mots_cles": ["fraude sociale", "cotisations", "CNSS", "sous-déclaration", "sécurité sociale"],
+      "exemples": [
+        "Déclarer un nombre inférieur de salariés",
+        "Sous-déclarer les salaires pour payer moins de cotisations",
+        "Manipuler les données de la CNSS",
+        "Frauder sur les déclarations sociales"
+      ]
+    },
+    {
+      "id": 60,
+      "categorie": "Crimes sociaux - Perception indue",
+      "infraction": "Perception indue de prestations sociales",
+      "description": "Continuer à percevoir des prestations sans remplir les conditions d'éligibilité",
+      "article": "Article 291 du Code pénal",
+      "sanction_prison": "Jusqu'à 5 ans d'emprisonnement",
+      "sanction_amende": "Jusqu'à 2 400 dinars d'amende",
+      "mots_cles": ["fraude prestations", "allocations indues", "pension", "CNSS", "prestations sociales"],
+      "exemples": [
+        "Percevoir une pension après reprise d'activité",
+        "Maintenir un dossier CNSS actif sans y avoir droit",
+        "Toucher des allocations sans conditions",
+        "Continuer à recevoir des aides sociales indûment"
+      ]
+    },
+    {
+  "id": 61,
+  "categorie": "Droit à l'image - Définition",
+  "infraction": "Atteinte au droit à l'image",
+  "description": "Le droit à l’image est le droit pour toute personne de contrôler l’utilisation de son image, notamment sa fixation, sa reproduction et sa diffusion.",
+  "article": "Article 12 du Décret-loi n° 2022-54",
+  "sanction_prison": "3 ans d'emprisonnement",
+  "sanction_amende": "10 000 dinars d'amende",
+  "mots_cles": ["droit à l'image", "image personnelle", "consentement", "vie privée"],
+  "exemples": [
+    "Publier la photo d’une personne sans son accord",
+    "Diffuser une vidéo montrant une personne identifiable sans autorisation",
+    "Utiliser l’image de quelqu’un sur un site web sans consentement"
+  ]
+},
+{
+  "id": 62,
+  "categorie": "Droit à l'image - Publication sans consentement",
+  "infraction": "Publication non autorisée de l'image d'autrui",
+  "description": "Il est interdit de publier la photo d’une personne identifiable sur les réseaux sociaux sans son consentement explicite, sauf exceptions prévues par la loi.",
+  "article": "Article 12 du Décret-loi n° 2022-54",
+  "sanction_prison": "3 ans d'emprisonnement",
+  "sanction_amende": "10 000 dinars d'amende",
+  "mots_cles": ["publication image", "réseaux sociaux", "consentement", "photo sans autorisation"],
+  "exemples": [
+    "Publier la photo d’un ami sur Facebook sans lui demander",
+    "Partager une image privée sur Instagram",
+    "Diffuser une photo prise en soirée sans autorisation"
+  ]
+},
+{
+  "id": 63,
+  "categorie": "Droit à l'image - Sanctions",
+  "infraction": "Violation du droit à l'image",
+  "description": "Toute violation du droit à l’image expose son auteur à des sanctions pénales prévues par la législation tunisienne.",
+  "article": "Article 12 du Décret-loi n° 2022-54",
+  "sanction_prison": "3 ans d'emprisonnement",
+  "sanction_amende": "10 000 dinars d'amende",
+  "mots_cles": ["sanctions", "droit à l'image", "peines", "infraction"],
+  "exemples": [
+    "Diffuser des photos privées sans accord",
+    "Partager des vidéos personnelles d’autrui",
+    "Utiliser l’image d’une personne à des fins commerciales sans autorisation"
+  ]
+}
+,
+{
+  "id": 64,
+  "categorie": "Droit à l'image - Usage éducatif",
+  "infraction": "Utilisation non autorisée d'une image",
+  "description": "Une image trouvée sur Internet ne peut être utilisée que si les droits le permettent ou si l’image est libre de droits, même pour un usage scolaire.",
+  "article": "Loi tunisienne sur la propriété intellectuelle",
+  "sanction_prison": "Pas de prison en cas d'usage éducatif sans intention commerciale",
+  "sanction_amende": "Amendes possibles selon le préjudice",
+  "mots_cles": ["image internet", "usage scolaire", "libre de droits", "propriété intellectuelle"],
+  "exemples": [
+    "Utiliser une image libre de droits dans un exposé",
+    "Citer la source d’une image dans un devoir",
+    "Éviter d’utiliser des images protégées sans autorisation"
+  ]
+}
+,
+{
+  "id": 65,
+  "categorie": "Droit à l'image vs Droit d'auteur",
+  "infraction": "Confusion entre droit à l'image et droit d'auteur",
+  "description": "Le droit à l’image protège la personne représentée, tandis que le droit d’auteur protège le créateur de l’image.",
+  "article": "Code de la propriété intellectuelle tunisien",
+  "sanction_prison": "Variable selon l'infraction",
+  "sanction_amende": "Variable selon le dommage",
+  "mots_cles": ["droit d'auteur", "droit à l'image", "photographe", "personne représentée"],
+  "exemples": [
+    "Un photographe détient le droit d’auteur sur la photo",
+    "La personne photographiée détient le droit à son image",
+    "Une photo nécessite parfois deux autorisations distinctes"
+  ]
+},
+  {
+    "id": 66,
+    "categorie": "Droit à l'image",
+    "infraction": "Publication sans autorisation",
+    "description": "Utilisation de l'image d'une personne sans son consentement",
+    "article": "Articles 24 et 25 du Code de la presse et de l'audiovisuel",
+    "sanction_prison": "Jusqu'à 1 an d'emprisonnement",
+    "sanction_amende": "500 à 2000 dinars",
+    "mots_cles": ["image", "autorisation", "consentement", "publication"],
+    "exemples": [
+      "Publier la photo de quelqu'un sur les réseaux sociaux sans autorisation",
+      "Partager des images privées trouvées sur Internet"]
+  },
+  
+  {
+    "id": 67,
+    "categorie": "Droit à l'image",
+    "infraction": "Droit à l’image",
+    "description": "Protéger l'image et la représentation d'une personne",
+    "article": "Articles 24 et 25 du Code de la presse",
+    "sanction_prison": "Variable selon le cas",
+    "sanction_amende": "Variable selon le cas",
+    "mots_cles": ["image", "consentement", "publication", "droit"],
+    "exemples": [
+      "Photographier quelqu'un sans son accord",
+      "Publier une image d'une personne sans autorisation"]
+  }
+]}
