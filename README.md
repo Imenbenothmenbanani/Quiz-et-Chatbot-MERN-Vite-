@@ -26,16 +26,31 @@
 - 📊 **Analytics en temps réel** des performances
 
 ---
+## 🎥 Démonstration Vidéo
 
-## 🎥 Vidéo Démonstrative {#video}
+<div align="center">
 
-**Vidéo locale disponible** : `/video`
+### 📹 Vidéo de Démonstration
 
-**Comment regarder** :
-```bash
-# Naviguer vers le dossier video
-cd video
-# Ouvrir le fichier vidéo avec votre lecteur préféré
+<!-- Affiche une image cliquable ou un lien direct car GitHub n'affiche pas directement les vidéos locales -->
+
+[![Regarder la vidéo de démonstration](https://img.shields.io/badge/▶️_Lancer-La_Vidéo_de_Démonstration-0052CC?style=for-the-badge&logo=google-chrome&logoColor=white)](Video/video_quiz.mp4)
+
+<br>  
+
+
+https://github.com/user-attachments/assets/96f58f06-0581-452d-9b6e-139bd4829f1d
+
+
+**[🔗 Lien direct ve
+
+Uploading Design sans titre.mp4…
+
+rs le fichier vidéo (MP4)](Video/vidéo.mp4)**
+
+*Cliquez sur le bouton ou le lien ci-dessus pour télécharger/voir la démonstration*
+
+</div>
 ```
 
 ### Contenu de la Vidéo
