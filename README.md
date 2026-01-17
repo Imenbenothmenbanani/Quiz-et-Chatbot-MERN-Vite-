@@ -19,13 +19,6 @@
 
 ---
 
-### Points innovants
-- 🤖 **Chatbot juridique intelligent** utilisant RAG et Ollama
-- 🎮 **Système de gamification** avec coins et classement
-- 🎵 **Expérience immersive** avec sons et animations
-- 📊 **Analytics en temps réel** des performances
-
----
 ## 🎥 Démonstration Vidéo {#video}
 
 <div align="center">
