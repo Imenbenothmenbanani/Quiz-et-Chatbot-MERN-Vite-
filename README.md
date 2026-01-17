@@ -1,15 +1,5 @@
 # 🎓 QUIZZY - Plateforme de Quiz Interactive avec Intelligence Artificielle
 
-## 📋 Table des Matières
-1. [Vue d'ensemble du projet](#vue-densemble)
-2. [Architecture technique](#architecture)
-3. [Fonctionnalités par rôle](#fonctionnalités)
-4. [Intelligence Artificielle & RAG](#ia)
-5. [Technologies utilisées](#technologies)
-6. [Diagrammes et schémas](#diagrammes)
-
----
-
 ## 🎯 Vue d'ensemble du projet {#vue-densemble}
 
 **Quizzy** est une plateforme web interactive de création et de passage de quiz avec un assistant juridique intelligent basé sur l'IA et la technique RAG (Retrieval-Augmented Generation).
@@ -20,6 +10,15 @@
 - ✅ Fournir un assistant IA pour répondre aux questions juridiques
 - ✅ Suivre les performances et classement des utilisateurs
 
+### ✨ Caractéristiques Principales
+- 📝 Création de quiz avec timer
+- 🤖 Assistant IA juridique avec RAG
+- 💰 Système de gamification (coins et classement)
+- 🎵 Expérience immersive (sons et animations)
+- 🏆 Leaderboard en temps réel
+
+---
+
 ### Points innovants
 - 🤖 **Chatbot juridique intelligent** utilisant RAG et Ollama
 - 🎮 **Système de gamification** avec coins et classement
@@ -27,6 +26,37 @@
 - 📊 **Analytics en temps réel** des performances
 
 ---
+
+## 🎥 Vidéo Démonstrative {#video}
+
+**Vidéo locale disponible** : `/video`
+
+**Comment regarder** :
+```bash
+# Naviguer vers le dossier video
+cd video
+# Ouvrir le fichier vidéo avec votre lecteur préféré
+```
+
+### Contenu de la Vidéo
+- **0:00-2:00** : Présentation générale de la plateforme
+- **2:00-5:00** : Passage de quiz avec timer et gamification
+- **5:00-8:00** : Chatbot IA juridique avec RAG
+- **8:00-10:00** : Panel administrateur et gestion des quiz
+
+---
+# 🎓 QUIZZY - Plateforme de Quiz Interactive avec Intelligence Artificielle
+
+## 📋 Table des Matières
+1. [Vue d'ensemble du projet](#vue-densemble)
+2. [Architecture technique](#architecture)
+3. [Fonctionnalités par rôle](#fonctionnalités)
+4. [Intelligence Artificielle & RAG](#ia)
+5. [Technologies utilisées](#technologies)
+6. [Diagrammes et schémas](#diagrammes)
+
+---
+
 
 ## 🏗️ Architecture Technique {#architecture}
 
@@ -765,3 +795,83 @@ User          Frontend       Backend        Ollama      MongoDB
 │ infraction: String  │
 │ description: String │
 │ article: String     │
+|_____________________|
+
+---
+
+##  R�sum� du Projet
+
+**QUIZZY** est une solution compl�te de gamification p�dagogique combinant quiz interactif et IA juridique.
+
+###  **Objectifs Atteints**
+ Plateforme de quiz interactive et engageante
+ Assistant IA juridique bas� sur RAG
+ Syst�me de gamification avec coins et leaderboard
+ Exp�rience utilisateur immersive avec animations et sons
+ Architecture scalable et maintenable
+
+###  **Cas d'Usage**
+-  **Education Juridique** : Plateforme pour apprendre le droit tunisien
+-  **Formation Institutionnelle** : Modules de formation pour organismes publics
+-  **E-Learning** : Quiz d'�valuation avec feedback imm�diat
+-  **Support IA** : Assistant juridique accessible 24/7
+
+###  **Stack Technologique**
+- **Frontend** : React 18 + Vite + TailwindCSS + Redux
+- **Backend** : Node.js + Express + MongoDB
+- **IA** : Ollama + llama3.2 + nomic-embed-text (RAG)
+- **Architecture** : MERN Stack + AI Integration
+
+###  **Fonctionnalit�s Cl�s**
+1. **Quiz Interactif** : Timer avec notifications sonores
+2. **Gamification** : Coins, classement, r�compenses
+3. **Chatbot IA** : Questions juridiques avec sources cit�es
+4. **Admin Dashboard** : Gestion compl�te des quiz
+5. **Leaderboard** : Classement global des utilisateurs
+
+###  **S�curit� & Performance**
+- Authentification JWT avec hashage bcrypt
+- Validation des donn�es c�t� serveur
+- Recherche vectorielle optimis�e
+- Cache des embeddings pour performance
+- CORS et headers de s�curit�
+
+###  **Statistiques du Projet**
+- **66 infractions juridiques** pr�-charg�es
+- **768 dimensions** pour les embeddings
+- **8K tokens** de contexte LLM
+- **Support multilingue** (fran�ais)
+- **Temps de r�ponse** : < 2 secondes
+
+###  **Concepts Avanc�s Impl�ment�s**
+- RAG Pipeline complet
+- Vector Search avec similarit� cosinus
+- Streaming SSE pour UX r�active
+- State Management avec Redux
+- Component-based Architecture
+- RESTful API Design
+
+###  **Potentiel de Croissance**
+- Extension � d'autres domaines (commerce, finance, etc.)
+- Mobile app avec React Native
+- Int�gration avec LMS (Moodle, Canvas)
+- Webhooks et API publique
+- Multi-langue support (AR, EN, FR)
+- Analyse pr�dictive des performances
+
+###  **Points Forts du Projet**
+ **Innovation** : Combinaison unique de quiz + IA juridique
+ **Exp�rience UX** : Interface fluide et r�active
+ **Scalabilit�** : Architecture extensible et modulaire
+ **Documentation** : Code bien comment� et organis�
+ **Open Source** : Licence MIT, contributions bienvenues
+
+---
+
+###  **Merci d'utiliser QUIZZY !**
+
+Pour toute question, suggestion ou bug : **support@quizzy.com**
+
+**Fabriqu� avec  par l'�quipe QUIZZY**
+
+*Derni�re mise � jour : 17 janvier 2026*
