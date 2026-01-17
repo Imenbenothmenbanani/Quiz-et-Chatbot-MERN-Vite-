@@ -26,7 +26,6 @@
 - 📊 **Analytics en temps réel** des performances
 
 ---
-
 ## 🎥 Démonstration Vidéo {#video}
 
 <div align="center">
@@ -35,9 +34,12 @@
 
 [![Regarder la vidéo de démonstration](https://img.shields.io/badge/▶️_Lancer-La_Vidéo_de_Démonstration-0052CC?style=for-the-badge&logo=google-chrome&logoColor=white)](video/video.mp4)
 
+
+**[🔗 Lien direct ve
+
 <br>
 
-**[🔗 Lien direct vers le fichier vidéo (MP4)](video/video.mp4)**
+**[🔗 Lien direct vers le fichier vidéo (MP4)](video/video_quiz.mp4)**
 
 *Cliquez sur le bouton ou le lien ci-dessus pour télécharger/voir la démonstration*
 
@@ -48,8 +50,6 @@
 - **2:00-5:00** : Passage de quiz avec timer et gamification
 - **5:00-8:00** : Chatbot IA juridique avec RAG
 - **8:00-10:00** : Panel administrateur et gestion des quiz
-
----
 
 ---
 # 🎓 QUIZZY - Plateforme de Quiz Interactive avec Intelligence Artificielle
